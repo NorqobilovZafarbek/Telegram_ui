@@ -20,6 +20,7 @@ class _ChatState extends State<Chat> {
     return Column(
       children: [
         ListTile(
+          onTap: (){},
           leading: Image.asset(widget.paht),
           title: Text(widget.titletext),
           titleTextStyle: TextStyle(color: Colors.white),
