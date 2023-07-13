@@ -9,9 +9,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:device_preview/device_preview.dart';
 
 
-void main() => runApp(
-  DevicePreview(
-    enabled: !kReleaseMode,
-    builder: (context) => const App(), // Wrap your app
-  ),
-);
+void main() => runApp(const App());
+
+
+// void main() => runApp(
+//   DevicePreview(
+//     enabled: !kReleaseMode,
+//     builder: (context) => const App(), // Wrap your app
+//   ),
+// );
